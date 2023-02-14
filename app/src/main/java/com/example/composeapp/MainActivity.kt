@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
                 modifier = Modifier
                     .fillMaxWidth()
                     .fillMaxHeight(),
-                color = Color.Blue
+                color = Color.Red
             ) {
                 CreateBizCard()
             }
