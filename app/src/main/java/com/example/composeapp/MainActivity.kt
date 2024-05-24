@@ -201,6 +201,7 @@ fun CreateImageProfile(modifier: Modifier) {
         elevation = 4.dp,
         color = MaterialTheme.colors.onSurface.copy(alpha = 0.5f)
     ) {
+
         Image(
             painter = painterResource(id = R.drawable.profile_image),
             contentDescription = "profile image",
